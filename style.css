@@ -12,7 +12,7 @@ div.navbar {
   padding: 0;
   display: flex;
   justify-content: left;
-  max-width: 700px;
+  padding-left: 35px;
 }
 
 div.navbar button {
@@ -69,15 +69,26 @@ div.half-image-wrapper img {
   height: 100%;
 }
 
+div.text-announcement {
+  padding: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: red;
+  color: white;
+}
+
+div.text-announcement p {
+  margin: 0;
+}
+
 div.text-next-to-image {
   float: left;
   padding: 50px;
+  padding-bottom: 30px;
   background-color: #EEEEEE;
 }
 
-
 div.text-standalone {
-  margin: auto;
   margin-top: 10px;
   padding: 50px;
   padding-top: 20px;
