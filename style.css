@@ -1,0 +1,89 @@
+div.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 50px;
+  background-color: black;
+}
+
+div.navbar {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  max-width: 700px;
+}
+
+div.navbar button {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  background-color: transparent;
+  height: 50px;
+  border: none;
+}
+
+div.navbar button:hover {
+  background-color: #444444;
+  border: 0;
+}
+
+div.content {
+  width: 100%;
+  margin-top: 50px;
+}
+
+div.full-image {
+  position: relative;
+}
+
+div.full-image img {
+  width: 100%;
+}
+
+div.text-over-image {
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  padding-left: 50px;
+}
+
+div.half-image {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: fit-content(0);
+}
+
+div.half-image-wrapper {
+  overflow: hidden;
+}
+
+div.half-image-wrapper img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
+
+div.text-next-to-image {
+  float: left;
+  padding: 50px;
+  background-color: #EEEEEE;
+}
+
+
+div.text-standalone {
+  margin: auto;
+  margin-top: 10px;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+div.text-standalone-alternate {
+  background-color: #EEEEEE;
+}
