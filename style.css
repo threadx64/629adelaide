@@ -73,8 +73,8 @@ div.text-announcement {
   padding: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: red;
-  color: white;
+  background-color: yellow;
+  color: black;
 }
 
 div.text-announcement p {
