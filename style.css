@@ -98,3 +98,16 @@ div.text-standalone {
 div.text-standalone-alternate {
   background-color: #EEEEEE;
 }
+
+#mc_embed_signup_scroll {
+  background-color: #EEEEEE;
+}
+
+.mc-field-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mc-field-group .text {
+  margin-left: 10px;
+}
