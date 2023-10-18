@@ -2,12 +2,16 @@ function goHome(event) {
   scrollIntoView(document.getElementById("home"));
 }
 
-function goToQA(event) {
-  scrollIntoView(document.getElementById("qa"));
+function goToConcerns(event) {
+  scrollIntoView(document.getElementById("concerns"));
 }
 
 function goToHelp(event) {
   scrollIntoView(document.getElementById("help"));
+}
+
+function goToQA(event) {
+  scrollIntoView(document.getElementById("qa"));
 }
 
 function scrollIntoView(element) {
