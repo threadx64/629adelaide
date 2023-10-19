@@ -15,7 +15,7 @@ function goToQA(event) {
 }
 
 function scrollIntoView(element) {
-  const navbarHeight = 50; // from CSS
+  const navbarHeight = 80; // from CSS
   const y = element.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
   window.scrollTo({top: y, behavior: 'smooth'});
 }
