@@ -67,6 +67,7 @@ div.half-image {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: fit-content(0);
+  background-color: #EEEEEE;
 }
 
 div.half-image-wrapper {
