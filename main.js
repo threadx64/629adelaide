@@ -10,6 +10,10 @@ function goToHelp(event) {
   scrollIntoView(document.getElementById("help"));
 }
 
+function goToContact(event) {
+  scrollIntoView(document.getElementById("contact"));
+}
+
 function goToQA(event) {
   scrollIntoView(document.getElementById("qa"));
 }
