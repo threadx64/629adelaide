@@ -42,8 +42,8 @@ div.scrollable {
 
 div.content {
   margin: 0 auto;
-  /* width: calc(100% - 60px);
-  transform: translateY(-30px); */
+  width: calc(100% - 60px);
+  transform: translateY(-30px); 
 }
 
 div.full-image {
