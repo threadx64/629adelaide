@@ -109,9 +109,19 @@ div.text-standalone-alternate {
   background-color: #EEEEEE;
 }
 
+#concerns {
+  padding-bottom: 0;
+}
+
+#news {
+  padding-top: 30px;
+}
+
+
 #mc_embed_shell {
   max-width: 400px;
   overflow: hidden;
+  margin-top: 35px;
 }
 
 #mc_embed_signup_scroll {

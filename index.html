@@ -17,11 +17,12 @@
 <body>
   <div class="header">
     <div class="navbar">
-      <button onclick="goHome(event)">Home</button>
-      <button onclick="goToNews(event)">In the News</button>
-      <button onclick="goToHelp(event)">How to Help</button>
-      <button onclick="goToQA(event)">Workers Q&A</button>
-      <button onclick="goToContact(event)">Contact Us</button>
+      <button onclick="App.scrollTo('home')">Home</button>
+      <button onclick="App.scrollTo('concerns')">Key Concerns</button>
+      <button onclick="App.scrollTo('news', -20)">In the News</button>
+      <button onclick="App.scrollTo('help')">How to Help</button>
+      <button onclick="App.scrollTo('qa')">Workers Q&A</button>
+      <button onclick="App.scrollTo('contact')">Contact Us</button>
     </div>
 
     <div class="text-announcement">
@@ -64,6 +65,24 @@
         </div>
       </div>
 
+      <div class="text-standalone" id="concerns">
+        <h4>Key Concerns</h4>
+        <ul>
+          <li>
+            The close proximity of the respite site to two elementary schools.
+          </li>
+          <li>
+            The significant impact to public safety in our community.
+          </li>
+          <li>
+            The location of the proposed respite site in a densely-populated residential neighbourhood.
+          </li>
+          <li>
+            The City of Toronto’s lack of process, transparency, and proactive public consultation with the community.
+          </li>
+        </ul>
+      </div>
+
       <div class="text-standalone" id="news">
         <h4>In the News</h4>
         <ul>
@@ -83,7 +102,6 @@
         </ul>
 
       </div>
-
 
       <div class="half-image">
 
