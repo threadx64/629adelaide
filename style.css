@@ -13,6 +13,7 @@ div.navbar {
   display: flex;
   justify-content: left;
   padding-left: 35px;
+  min-width: 600px;
 }
 
 div.navbar button {
@@ -108,8 +109,17 @@ div.text-standalone-alternate {
   background-color: #EEEEEE;
 }
 
+#contact {
+  padding-top: 0;
+}
+
 #mc_embed_shell {
   max-width: 400px;
+  overflow: hidden;
+}
+
+#mc_embed_signup_scroll {
+  background-color: #EEEEEE;
 }
 
 .mc-field-group {
