@@ -13,7 +13,7 @@ div.navbar {
   display: flex;
   justify-content: left;
   padding-left: 35px;
-  min-width: 600px;
+  min-width: 700px;
 }
 
 div.navbar button {
