@@ -12,7 +12,7 @@ div.navbar {
   padding: 0;
   display: flex;
   justify-content: left;
-  padding-left: 35px;
+  padding-left: 12px;
   min-width: 700px;
 }
 
@@ -25,6 +25,14 @@ div.navbar button {
   background-color: transparent;
   height: 50px;
   border: none;
+}
+
+div.navbar button.logo {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.navbar button.logo img {
+  height: 50px;
 }
 
 div.navbar button:hover {
