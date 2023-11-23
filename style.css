@@ -42,7 +42,8 @@ div.navbar button:hover {
 
 div.scrollable {
   width: 100%;
-  margin-top: 80px;
+  /* margin-top: 80px; (with announcement) */
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -52,7 +53,7 @@ div.scrollable {
 div.content {
   margin: 0 auto;
   width: calc(100% - 60px);
-  transform: translateY(-30px); 
+  transform: translateY(-30px);
 }
 
 div.full-image {
