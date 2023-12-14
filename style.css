@@ -111,13 +111,17 @@ div.text-next-to-image {
   background-color: #EEEEEE;
 }
 
+div.white-bg {
+  background-color: white;
+}
+
 div.text-standalone {
   margin-top: 10px;
   padding: 50px;
 }
 
-div.text-standalone-alternate {
-  background-color: #EEEEEE;
+a.video-wrapper img {
+  width: 100%;
 }
 
 #concerns {
@@ -136,7 +140,7 @@ div.text-standalone-alternate {
 }
 
 #mc_embed_signup_scroll {
-  background-color: #EEEEEE;
+  /* background-color: #EEEEEE; */
 }
 
 .mc-field-group {
