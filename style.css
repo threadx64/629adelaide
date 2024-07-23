@@ -1,0 +1,157 @@
+div.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 50px;
+  background-color: black;
+}
+
+div.navbar {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  padding-left: 12px;
+  min-width: 700px;
+}
+
+div.navbar button {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  background-color: transparent;
+  height: 50px;
+  border: none;
+}
+
+div.navbar button.logo {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.navbar button.logo img {
+  height: 50px;
+}
+
+div.navbar button:hover {
+  background-color: #444444;
+  border: 0;
+}
+
+div.scrollable {
+  width: 100%;
+  /* with announcement */
+  margin-top: 80px;
+  /* without announcement */
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.content {
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  transform: translateY(-30px);
+}
+
+div.full-image {
+  position: relative;
+}
+
+div.full-image img {
+  width: 100%;
+}
+
+div.text-over-image {
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  padding-left: 50px;
+}
+
+div.half-image {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: fit-content(0);
+  background-color: #EEEEEE;
+}
+
+div.half-image-wrapper {
+  overflow: hidden;
+}
+
+div.half-image-wrapper img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+}
+
+div.text-announcement {
+  padding: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: yellow;
+  color: black;
+}
+
+div.text-announcement p {
+  margin: 0;
+}
+
+div.text-next-to-image {
+  float: left;
+  padding: 50px;
+  padding-bottom: 30px;
+  background-color: #EEEEEE;
+}
+
+div.white-bg {
+  background-color: white;
+}
+
+div.text-standalone {
+  margin-top: 10px;
+  padding: 50px;
+}
+
+a.video-wrapper img {
+  width: 100%;
+}
+
+#concerns {
+  padding-bottom: 0;
+}
+
+#legal {
+  padding-bottom: 0;
+}
+
+#news {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#mc_embed_shell {
+  max-width: 400px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#mc_embed_signup_scroll {
+  /* background-color: #EEEEEE; */
+}
+
+.mc-field-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mc-field-group label {
+  min-width: 110px;
+}
