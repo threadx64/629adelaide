@@ -4,7 +4,6 @@ div.header {
   width: 100%;
   z-index: 999;
   height: 50px;
-  background-color: black;
 }
 
 div.navbar {
@@ -13,7 +12,8 @@ div.navbar {
   display: flex;
   justify-content: left;
   padding-left: 12px;
-  min-width: 700px;
+  min-width: 930px;
+  background-color: black;
 }
 
 div.navbar button {
@@ -38,6 +38,19 @@ div.navbar button.logo img {
 div.navbar button:hover {
   background-color: #444444;
   border: 0;
+}
+
+div.navbar div.social {
+  margin-left: auto; 
+  margin-right: 0;
+}
+div.navbar div.social button {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+div.navbar div.social button img {
+  height: 40px;
+  margin-top: 0;
 }
 
 div.scrollable {

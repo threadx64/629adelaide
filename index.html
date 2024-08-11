@@ -17,6 +17,7 @@
 <body>
   <div class="header">
     <div class="navbar">
+
       <button class="logo" onclick="App.scrollTo('home')">
         <img src="logo.png" alt="Niagara Neighbours for Community Safety Logo" >
       </button>
@@ -24,9 +25,14 @@
       <button onclick="App.scrollTo('deputations', -30)">Deputations</button>
       <button onclick="App.scrollTo('legal', -20)">Legal Fight</button>
       <button onclick="App.scrollTo('news', -20)">In the News</button>
-      <button onclick="App.scrollTo('video', -50)">Harsh Realities: Video</button>
+      <button onclick="App.scrollTo('video', -50)">Videos</button>
       <button onclick="App.scrollTo('help')">How to Help</button>
-      <button onclick="App.scrollTo('contact')">Contact Us</button>
+
+      <div class="social">
+        <button onclick="window.open('https://x.com/629adelaidestw','_blank');"><img src="x.png"></button>
+        <button onclick="window.open('https://www.facebook.com/groups/629adelaidestw','_blank');"><img src="fb.png"></button>
+        <button onclick="window.open('https://www.instagram.com/629_adelaide_st_w','_blank');"><img src="ig.png"></button>
+      </div>
     </div>
 
     <!-- -->
@@ -139,6 +145,12 @@
         <h4>In the News</h4>
         <ul>
           <li>
+            <b>True North</b> August 1, 2024
+          </li>
+          <a href="https://tnc.news/2024/08/01/levy-toronto-failed-homeless-strategy2/" target="_blank">LEVY: Toronto doubles down on failed homeless strategy</a>
+
+          
+          <li>
             <b>The Catholic Register</b> December 1, 2023
           </li>
           <a href="https://www.catholicregister.org/item/36195-toronto-respite-centre-plans-change" target="_blank">Toronto respite centre plans change</a>
@@ -183,13 +195,20 @@
       </div>
 
 
-      <h4 id="video">Harsh Realities: Video</h4>
+      <h4 id="video">Videos</h4>
+
+      <b>Toronto doubles down on failed homeless strategy</b>
+      <a class="video-wrapper" href="https://www.youtube.com/watch?v=pL3QqchwmXM" target="_blank">
+        <img src="video2.jpg" alt="Thumbnail of Youtube video">
+      </a>
+
+      <br>
+      <br>
       
+      <b>629 Adelaide St. W. proposed Emergency Shelter - This looks worse than bad!</b>
       <a class="video-wrapper" href="https://www.youtube.com/watch?v=7uejG1IEw00" target="_blank">
         <img src="video.jpg" alt="Thumbnail of Youtube video">
       </a>
-
-
 
       <div class="half-image">
 
