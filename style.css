@@ -4,6 +4,7 @@ div.header {
   width: 100%;
   z-index: 999;
   height: 50px;
+  min-width: 950px;
 }
 
 div.navbar {
@@ -12,7 +13,6 @@ div.navbar {
   display: flex;
   justify-content: left;
   padding-left: 12px;
-  min-width: 930px;
   background-color: black;
 }
 
@@ -63,6 +63,7 @@ div.scrollable {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  min-width: 950px;
 }
 
 div.content {
@@ -146,9 +147,15 @@ a.video-wrapper img {
   padding-bottom: 0;
 }
 
-#legal {
-  padding-top: 30px;
+#status {
+  padding-top: 20px;
   padding-bottom: 0;
+}
+
+
+#legal {
+  margin-top: 50px;
+  background-color: #EEEEEE;
 }
 
 #news {

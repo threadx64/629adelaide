@@ -22,11 +22,12 @@
         <img src="logo.png" alt="Niagara Neighbours for Community Safety Logo" >
       </button>
       <button onclick="App.scrollTo('concerns')">Key Concerns</button>
-      <button onclick="App.scrollTo('deputations', -30)">Deputations</button>
-      <button onclick="App.scrollTo('legal', -20)">Legal Fight</button>
-      <button onclick="App.scrollTo('news', -20)">In the News</button>
+      <button onclick="App.scrollTo('deputations', -20)">Deputations</button>
+      <button onclick="App.scrollTo('status', -20)">Shelter Status</button>
+      <button onclick="App.scrollTo('legal')">Legal Fight</button>
+      <button onclick="App.scrollTo('news', -10)">News</button>
       <button onclick="App.scrollTo('video', -50)">Videos</button>
-      <button onclick="App.scrollTo('help')">How to Help</button>
+      <button onclick="App.scrollTo('help')">Help</button>
 
       <div class="social">
         <button onclick="window.open('https://x.com/629adelaidestw','_blank');"><img src="x.png"></button>
@@ -65,7 +66,7 @@
             On Thursday, November 16, 2023, our community was suddenly advised that a 24-hour shelter/emergency shelter (terms used interchangeably) would be sited at 629 Adelaide Street West — rather than a 24-hour low barrier respite site. We did not support the respite site at this location and are unaware as to why the City of Toronto changed the purpose of the site. The entire process has been shrouded in secrecy and a lack of transparency. 
           </p>
           <p>
-            The 24-hour emergency shelter is planned to open in March 2024 and is a 30-second walk from St. Mary’s Catholic Elementary School and a two-minute walk from Niagara Street Public School. Our neighbourhood has a safe consumption site and multiple existing social services within blocks of this site. Locating a 24-hour emergency shelter in the very center of a residential neighbourhood is dangerous and reckless. The City of Toronto must not place this site at this location. 
+            The 24-hour emergency shelter was originally planned to open in November 2023 and has now been delayed until Fall 2024 with no public explanation from the City of Toronto, yet a multi-million dollar 10-year lease has been signed with a private landlord. The annual lease is $640,000 with annual operating costs of $3.8 million for a total 10-year cost of $44.4 million for 50 beds. A previous lease negotiation at 65 Bellwoods Avenue (a building half the size) ended in May 2023 when the landlord pulled out at the last minute due to public safety concerns leaving the service operator, St. Felix Centre, scrambling for another location. Tragically, The City of Toronto approved 629 Adelaide Street West — 30-second walk from St. Mary’s Catholic Elementary School and a two-minute walk from Niagara Public School. Our neighbourhood has a busy and dangerous supervised consumption two blocks away along with multiple existing social services within blocks of the site. Locating a 24-hour emergency shelter in the very heart of a residential neighbourhood is reckless. The City of Toronto must not place this site at this location.
           </p>
         </div>
 
@@ -94,51 +95,60 @@
 
 
       <div class="text-standalone" id="deputations">
-        <h4>Deputations</h4>
+        <h4>Deputations to City Council</h4>
 
         <p>
-          View NNCS's <a href="DEPUTATIONS TO CITY COUNCIL AND ITS COMMITTEES 2023-24.pdf" target="_blank">DEPUTATIONS TO CITY COUNCIL AND ITS COMMITTEES 2023-24</a>.
+          View PDF NNCS's <a href="DEPUTATIONS TO CITY COUNCIL AND ITS COMMITTEES 2023-24.pdf" target="_blank">DEPUTATIONS TO CITY COUNCIL AND ITS COMMITTEES 2023-24</a>.
         </p>
       </div>
+
+      <div class="text-standalone" id="status">
+        <h4>What's Happening at the Shelter</h4>
+
+        <p>
+          The building permits for the interior renovations were posted in mid-July 2024. However, leading up to this were many illegal and concerning issues including: a construction fence erected without a building permit, illegal parking (four car parking only) at the front entrance, blocking of the south laneway, installation of surveillance cameras surrounding the entire building and questions about private property and privacy issues, and the permit status for a patio on the north side of the building. Due to the lack of public parking in our neighbourhood trucks and vehicles have stopped in front of the building which is a no parking/stopping zone making it very dangerous for bike-riders and cars coming around the corner (due to the blind spot) easterly onto Portugal Square.
+        </p>
+
+        <p>
+          Residents are actively watching the construction work to ensure public safety and are calling 311 with these serious concerns including emailing Councillor Malik and the City of Toronto as issues arise. If you see something that concerns you — please report it to 311. If you want help with a concern please email: <a href="mailto:portugalsquareadelaide@outlook.com">portugalsquareadelaide@outlook.com</a>
+        </p>
+      </div>
+      
 
 
       <div class="text-standalone" id="legal">
         <h4>Legal Fight</h4>
 
         <p>
-          <b>DONATE TO THE LEGAL FUND</b>: The Niagara Neighbours for Community Safety (NNCS) continues to fight the planned 24-hour emergency shelter at 629 Adelaide Street West. We are actively undertaking a legal challenge against the City of Toronto. We remain very concerned for community public safety.
+          In early 2023, our community submitted a $200 City of Toronto zoning-use review application to gain clarity on applicable zoning by-laws for a shelter at this location—the City of Toronto responded advising it was not permitted use. We challenged the use of the property as a shelter on two bases. First, the use of the property as a municipal shelter or a crisis centre is not permitted under the city’s zoning by-laws. Second, the intended inclusion of a patio is specifically prohibited by the city’s by-laws, and renders the entire proposed use of the property as a shelter improper. The Judge ruled against us and our lawyer is appealing on grounds related to errors in law of prematurity and expert evidence.
         </p>
 
-        <b>PLEASE E-TRANSFER: PortugalSquareAdelaide@outlook.com</b>
+        <p>
+          We have been consistently silenced by the City of Toronto—we had no other option but to undertake a legal challenge (funded by residents) against the City of Toronto and City-funded service operator St. Felix Centre. Despite the uphill battle, we continue to refuse to remain silent in the face of reckless decision-making that jeopardizes the safety and well-being of our neighbourhood. Niagara Neighbours for Community Safety (NNCS) continues to fight the planned 24-hour emergency shelter at 629 Adelaide Street West.
+
+        </p>
+
+        <p>
+          <b>DONATE TO LEGAL FUND — PLEASE E-TRANSFER</b>:
+          <button onclick="App.copyEmail()">PortugalSquareAdelaide@outlook.com</button> <span id="copy_status">(click to copy)</span>
+        </p>
 
         <p>
           Important information when you make a donation:
         </p>
-        <ul>
-          <li>
-            We are using e-transfer so that if we have excess funds then your portion can easily be transferred back to you.
-          </li>
-          <li>
-            All contributions over $50 will be given access to the NNCS online banking spreadsheet to see how cash is being raised and utilized.
-          </li>
-          <li>
-            If you would like to be noted as "anonymous" on the banking spreadsheet, please let us know.
-          </li>
-          <li>
-            Please include your email address in the Message of your e-transfer, or send us a separate email so we have it on record.
-          </li>
-          <li>
-            If you would like to speak to an NNCS member, please include a request and phone number in your email.
-          </li>
-        </ul>
-
         <p>
-          We are reaching out to our large community of supporters for donations — please donate whatever you are able to as every contribution is so important to help ensure we win this fight. It is a small amount to invest and to help secure the safety and value of our wonderful neighbourhood. Our legal challenge will be public very soon and once you donate we will keep you updated by email. Thank you for your support.
+          We are using e-transfer so that if we have excess funds then your portion can easily be transferred back to you. All contributions over $50 will be given access to the NNCS online banking spreadsheet to see how cash is being raised and utilized. If you would like to be noted as "anonymous" on the banking spreadsheet, please let us know.
+        </p>
+        <p>
+          Please include your email address in the Message of your e-transfer, or send us a separate email so we have it on record. If you would like to speak to an NNCS member, please include a request and phone number in your email.
+        </p>
+        <p>
+          Please donate whatever you are able to as every contribution is important to help secure the safety and value of our wonderful neighbourhood. Thank you for your support.
+        </p>
+        <p>
+          Your community members have spent many hours completing extensive research for the case and fighting for public safety in our neighbourhood. If you would like to speak with some directly about the legal challenge and our fight, please send an email to <a href="mailto:portugalsquareadelaide@outlook.com">portugalsquareadelaide@outlook.com</a>.
         </p>
 
-        <p>
-          We feel very confident with the lawyer we have engaged — he is very competent to help us fight this battle. A significant portion of our legal challenge is related to public safety. To help reduce legal fees and save time your community members have spent many hours completing extensive research for the case. If you would like to speak with some directly about the legal challenge, send an email to <a href="mailto:portugalsquareadelaide@outlook.com">portugalsquareadelaide@outlook.com</a>.
-        </p>
       </div>
 
       <div class="text-standalone" id="news">
