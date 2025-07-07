@@ -132,52 +132,29 @@ div.white-bg {
 div.text-standalone {
   margin-top: 10px;
   padding: 50px;
-}
-
-a.video-wrapper img {
-  width: 100%;
-}
-
-#concerns {
+  padding-top: 30px;
   padding-bottom: 0;
 }
 
-#deputations {
-  padding-top: 20px;
-  padding-bottom: 0;
-}
-
-#status {
-  padding-top: 20px;
-  padding-bottom: 0;
-}
-
-
-#legal {
+div.text-standalone-grey {
   margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   background-color: #EEEEEE;
 }
 
+#voice {
+  margin-top: 0px;
+}
+
+#concerns {
+  margin-top: 50px;
+}
+
+#deputations {
+  margin-bottom: 50px;
+}
+
 #news {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#mc_embed_shell {
-  max-width: 400px;
-  overflow: hidden;
-  margin-top: 10px;
-}
-
-#mc_embed_signup_scroll {
-  /* background-color: #EEEEEE; */
-}
-
-.mc-field-group {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.mc-field-group label {
-  min-width: 110px;
+  margin-bottom: 50px;
 }
