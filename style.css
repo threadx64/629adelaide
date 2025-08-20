@@ -158,3 +158,22 @@ div.text-standalone-grey {
 #news {
   margin-bottom: 50px;
 }
+
+div.zero-top-margin {
+  margin-top: 0;
+}
+
+.video-wrapper {
+  margin-top: 50px;
+  position: relative;
+}
+.video-wrapper img {
+  width: 100%;
+}
+.video-title {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+  pointer-events: none;
+}
